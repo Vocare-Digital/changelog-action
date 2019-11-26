@@ -1,0 +1,10 @@
+name: 'changelog-generator'
+description: 'Generate changelogs and push to repo'
+inputs:
+  GITHUB_SECRET:
+    description: 'A GitHub secret token'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
+

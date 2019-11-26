@@ -1,0 +1,14 @@
+{
+  "name": "@vocare-digital/changelog-action",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:Vocare-Digital/changelog-action.git",
+  "author": "Sean Hamilton <sean.hamilton@vocare.nhs.uk>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^1.1.0",
+    "auto-changelog": "^1.16.2"
+  }
+}
